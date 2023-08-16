@@ -1,0 +1,43 @@
+.board {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    box-shadow: 0px 0px  20px 2px black;
+    margin-top: 50px;
+    border-radius: 2%;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10%;
+    text-align: center;
+}
+td:hover{
+    border: 1.5px solid black;
+}
+body{
+    background-color: aqua;
+}
+#name{
+    text-align: center;
+    color: blue;
+    text-decoration:underline;
+}
+#button{
+    margin-left: 45%;
+    margin-top: 5%;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10%;
+    color: aliceblue;
+}
+#button:hover{
+    background-color: red;
+}
